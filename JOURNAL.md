@@ -71,3 +71,72 @@ I placed all the components and wired the power system first. the power works li
  ![Schematic Vashtastic](assets/Schematic-1.png)
 
  I also added a no connect flag on everything which was not connected. I have a headache right now but i have to complete 84 hours. and i only have 20 days left. I'm so cooked man. I did 5 hours today which is not bad but i need to do 10 hours tomorrow.
+
+## 12-July-2026 - 13-July-2026
+
+### Combined Journal of Last two days cuz I forgot to write the Journal (again)
+
+Ok so I started working on the PCB on the 12th. First thing i had to do was place the components in such order that the ratlines are straight and short as possible.
+
+- **Placement of ESP32:**
+ I placed the Esp32 in the far right with its squigly antenna (the wifi and bluetooth part) is hanging outside the board. Why did I do this?, because the wifi and bluetooth signals would be interupted/absorbed or whatever its called by the ground plane below it, the ground plane acts like a a shield for the wifi/bluetooth signal. so to fix that, i just moved the wifi part to hang outside the board, there is another way which works by idk adding vias and stuff but a man said **"if it ain't broke, don't fix it"**. I also put the resistors and capacitors for the esp32 as close as possible to the pins of esp32.
+
+- **Placement of the Power System and the USB-C:**
+I placed the power system and the USB-C on the Bottom far left, as close as possible to the board outline. First i placed the battery charger, usb-c and then the LDO. All the required resistors and capacitors were placed as close as possible to the pins.
+
+- **Placement of the LoRa Module:**
+The LoRa Module was placed in the top left corner and the U.F.L connector was as close as possible to the pin 21 (the antenna pin) of LoRa module. the traces must also be thick, approximately 0.6mm. All the required resistors and capacitors were placed as close as possible to the pins.
+
+- **Placement of the GPS Module:**
+The GPS module was placed in the top right corner, right beside the Lora Module. And then the MOSFET was placed in between the ESP32 and the GPS for easier and short traces. All the required resistors and capacitors were placed as close as possible to the pins.
+
+**All the components and resistors except the E-ink display were placed on the Bottom Layer. and the Display is Placed on the Top Layer.**
+
+- **Placement of the E-Ink display:**
+The E-Ink Display I chose is a module created by the Waveshare Company, It has all the things pre-soldered and i just have to mount it and connect the 8 Pins to the LDO/ESP32. The E-Ink Display is 2.9 Inch Diagonally. But the whole mount and everything is about 89.50mm by 38.00mm. The main goal is to make this device as easy as possible to reproduce so I have to choose stuff which even non-hardware people can do. 
+
+After Placing everything, I wired each component to its respective capacitors and resistors. The first thing i traced was the power system, First i connected the battery charger, the usb and then the LDO. Tracing is always the fun part for me, I JUST LOVE IT SO MUCH MAN. 
+
+After tracing the Power Sytem, i wired the LDO 3.3V output to the ESP32 chip and then from ESP32 to every other component. I traced everything to the esp32 and the wiring was done. Here's how it looks after tracing everything:
+
+![First PCB Tracing](assets/First-Wiring-PCB.png)
+
+I also didn't trace any GND Pins because i planned to use the ground plane.
+
+### 13-July-2026
+
+**THE DESIGN HAD SO MANY PROBLEMS**:
+
+- **E-Ink Display Mistake:**
+Idk what i was thinking but i put the e-ink display on the right side, which is an awfully bad design, like bruh it would feel so weird. So i had to move the USB-C and the Entire Power System to the Right And move the Display to the left. i also had to lookout for the mounting holes bruh. Well I moved it and wired the 8 pins and the power system again. and this is how it looks:
+
+![Final-PCB-Routing](assets/PCB-Tracing-Final.png)
+
+- **USB-C Flaw:**
+I posted the Routing Picture to the hardware channel and one guy name @yam found a crucial flaw. I HAD THE USB-C BACKWARDS, AND I WAS THINKING THAT IT WAS DESIGNED THIS WAY BRUH. in the picture above it is fixed but the picture before this has the fault if you want to look at it.
+
+Well That was it for Routing, Now it was time for **MAKING IT COOLER**.
+
+### THE "MAKING IT COOLER" PART:
+
+Now you might be wondering, "why is it named "Vashtastic"?". Well Vash is a Character from an anime called Trigun.
+
+![](assets/Why-is-it-called-Vashtastic_.jpg)
+
+Well the anime is pretty peak, so i had to design the pcb around that vibe. Since EasyEDA makes it harder to add custom fonts, you have to use images, even for text. i just basically find the font i want to use and preview the text in the broswer and take a screenshot, and then paste it on the PCB. well after adding all the silkscreen stuff. here's how it looks:
+
+![](assets/3D_PCB-Vashtastic2.png)
+
+![](assets/3D_PCB1_2026-07-13.png)
+
+![](assets/3D_PCB1_2026-07-13-2.png)
+
+I'm very happy with the design and finally done with the PCB. now I'll work on the Case for this.
+
+I worked on the Case today too, about 4 hours but Lapse and Lookout wasn't working and i lost the 4 hours. I'd be very pleased if you can add those 4 hours.
+
+![](assets/Lapse.png)
+
+If you don't believe me then look up the messages on the 13th-July in the Lapse-help channel. alot of people were having this problem. and i don't think I'll get my hours back. Well that's it for today.
+
+***See you Space Cowboy***
