@@ -139,8 +139,6 @@ I worked on the Case today too, about 4 hours but Lapse and Lookout wasn't worki
 
 If you don't believe me then look up the messages on the 13th-July in the Lapse-help channel. alot of people were having this problem. and i don't think I'll get my hours back. Well that's it for today.
 
-***See you Space Cowboy***
-
 ## 14-15 July-2026 (I don't like journaling man)
 
 ### This is a Combined Journal (again).
@@ -177,7 +175,18 @@ After doing all that, the Case was finished. and Here's how it looks:
 
 Well that was it for today.
 
-***See you Space Cowboy***
-
 ## 15-July-2026. (the last one I think)
 
+### THE GRAPHICS:
+
+Today I worked on the Graphics of Vashtastic. Pictures and Stuff I'll add on the Readme. Well not much to say about these graphics tbh. I saw some really cool repos and wanted to make my own art. Well here is the Art of Vashtastic:
+
+![](assets/Vashtastic.png)
+
+![](assets/Vashtastic-pcb1.png)
+
+![](assets/Vashtastic-pcb-front.png)
+
+And thats pretty much it. It took alot of time since I used a new software (inkscape). but making art is always fun for me. Now I'll write the Readme I think. That's it for today folks.
+
+***See you Space Cowboy***
