@@ -140,3 +140,44 @@ I worked on the Case today too, about 4 hours but Lapse and Lookout wasn't worki
 If you don't believe me then look up the messages on the 13th-July in the Lapse-help channel. alot of people were having this problem. and i don't think I'll get my hours back. Well that's it for today.
 
 ***See you Space Cowboy***
+
+## 14-15 July-2026 (I don't like journaling man)
+
+### This is a Combined Journal (again).
+
+### The Case:
+
+on the 13th July, I started working on the Case for Vashtastic. and Today I worked on it more and completed the Case. I added alot of stuff today. Screw holes, Buttons, the back shell, battery hole and ALOT of stuff. It was my first time using FreeCAD and i was in the flow state fr. Like I just rawdogged everything so fast. even i was surprised. I went for the Clamshell design, four screws on the corners and viola, its completely shut. I had to add battery in it too so I had to make a hole in the Back shell. Lets go one by one ig.
+
+- **Back-Shell:**
+For the Backshell, since it has to be the same height and width, I just looked up the measurements of the top shell and Copy pasted it. and padded it by 15mm. and the Back shell was done.
+
+- **Screw-Holes:**
+Well I used the M3 Screws for this and made the screw hole according to that. I looked up how screws even work and found out that you have to make the Hole bigger on the start and smaller on the end. Well i did just that and added holes on each corner of the back shell. 
+
+- **Battery Pouch or hole:**
+I made a square on the back shell and padded it according to the batteries I'm going to use and those are 18650 cell. it is just going to be 1 cell. so after Padding that much i then made a Pocket/hole within that square and the battery pouch was done. I also had to make an empty square in the pouch/hole. that hole was for the wires and connector. the wires will go through that hole and connect with the pcb. I also had to design a cover for this batter pouch. so what i did is I sketched/padded a square the length of the battery pouch with 0.4mm tolerance and then i made 2 screw hole. one in the top left and one in the bottom right corner. And I was done with the battery Pouch. With this the backshell was done.
+
+- **Adding Buttons:**
+Since I made a D-Pad and a Zoom button on the PCB. i had to design it too obviously. But I had no Idea how buttons work. So i researched about this. and I found out that you have to make a circle the length of the hole but slightly smaller so it fits and make it as deep as the hole is. then you sketch a wider circle. wider than the hole so it gets stuck and doesn't fall off. and at the end you just sketch a circle underneath that is just small enough and exact size of the button on the pcb. and pad it as close as possible to button. Well that was and the math is same for every button so i built the dpad buttons after this pretty easily.  After that i was done with the buttons. 
+
+- **Antenna Hole:**
+I added a U.Fl Connector on the pcb so i had to make a hole for the antenna as well. I went for the U.FL to SMA connector. it is a wire which connects to my pcb ufl connector and the antenna would connect to the SMA connector. And since its a wire, i can put the hole anywhere (it still has to be close enough to the LoRa module otherwise, as far as you make the hole from the module, you lose the range and transmitting power or shi. in short its bad). so keep it under 3cm. well since my case was short i just put the hole in the corner like its supposed to be and I made the hole big enough (about 7mm) and I was done with Antenna stuff.
+
+
+After doing all that, the Case was finished. and Here's how it looks:
+
+![](assets/Vashtastic-CAD.png)
+
+![Vashtastic-CASE](assets/CAD-Final.png)
+
+![](assets/Vashtastic-CAD-Final-I-Hope.png)
+
+**I cooked so hard man.**
+
+Well that was it for today.
+
+***See you Space Cowboy***
+
+## 15-July-2026. (the last one I think)
+
