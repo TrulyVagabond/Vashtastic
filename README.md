@@ -179,6 +179,15 @@ This Project is Distributed Under MIT License. Check License.txt for More Inform
 [license-shield]: https://img.shields.io/github/license/TrulyVagabond/Vashtastic.svg?style=for-the-badge
 [license-url]: https://github.com/TrulyVagabond/Vashtastic/blob/main/LICENSE
 
+[EasyEDA]: https://img.shields.io/badge/EasyEDA-0177D7?style=for-the-badge
+[EasyEDA-url]: https://easyeda.com/
+
+[FreeCAD]: https://img.shields.io/badge/FreeCAD-2D9CDB?style=for-the-badge&logo=freecad&logoColor=white
+[FreeCAD-url]: https://www.freecad.org/
+
+[Inkscape]: https://img.shields.io/badge/Inkscape-000000?style=for-the-badge&logo=inkscape&logoColor=white
+[Inkscape-url]: https://inkscape.org/
+
 <br>
 
 ###### Note: A.I was only used for Research Purposes. 
