@@ -16,6 +16,10 @@ Vashtastic is a Meshtastic Node which you can carry in your Pocket. For those wh
 
 These Components will be connected to the ESP32. I have also Added Capacitors and Resistors to every Components which require it. Vashtastic will be a Compact and Small Device, so a 2.9In Screen is Perfect for that. One more Thing I'm going to add is a Map, which points the Location of other Nodes in the area. This way You can Track Where your Friends are. The Reason I have Chosen E-Ink Display is because It takes Almost no Power After it has Drawn the Picture/Map etc. and Also because it Looks cool. I have Only done Research as of Now and will start working on the Project from tomorrow.
 
+[Lapse Recording](https://lapse.hackclub.com/timelapse/kLZYaFMjoFW2)
+
+Note: Multiple Recordings
+
 ## 11-July-2026
 
 ### Starting the Schematic:
@@ -72,6 +76,10 @@ I placed all the components and wired the power system first. the power works li
 
  I also added a no connect flag on everything which was not connected. I have a headache right now but i have to complete 84 hours. and i only have 20 days left. I'm so cooked man. I did 5 hours today which is not bad but i need to do 10 hours tomorrow.
 
+[Lapse Recording](https://lapse.hackclub.com/timelapse/ZRvY6w45-Zpa)
+
+Note: Multiple Recordings
+
 ## 12-July-2026 - 13-July-2026
 
 ### Combined Journal of Last two days cuz I forgot to write the Journal (again)
@@ -102,6 +110,11 @@ After tracing the Power Sytem, i wired the LDO 3.3V output to the ESP32 chip and
 ![First PCB Tracing](assets/First-Wiring-PCB.png)
 
 I also didn't trace any GND Pins because i planned to use the ground plane.
+
+[Lapse Recording](https://lapse.hackclub.com/timelapse/Ee3jbY8xCx1e)
+
+Note: Multiple Recordings
+
 
 ### 13-July-2026
 
@@ -139,6 +152,10 @@ I worked on the Case today too, about 4 hours but Lapse and Lookout wasn't worki
 
 If you don't believe me then look up the messages on the 13th-July in the Lapse-help channel. alot of people were having this problem. and i don't think I'll get my hours back. Well that's it for today.
 
+[Lapse Recording](https://lapse.hackclub.com/timelapse/ZRvY6w45-Zpa)
+
+Note: Multiple Recordings
+
 ## 14-15 July-2026 (I don't like journaling man)
 
 ### This is a Combined Journal (again).
@@ -175,6 +192,10 @@ After doing all that, the Case was finished. and Here's how it looks:
 
 Well that was it for today.
 
+[Lapse Recording](https://lapse.hackclub.com/timelapse/SWwQ3fYBz_di)
+
+Note: Multiple Recordings
+
 ## 15-July-2026. (the last one I think)
 
 ### THE GRAPHICS:
@@ -188,5 +209,9 @@ Today I worked on the Graphics of Vashtastic. Pictures and Stuff I'll add on the
 ![](assets/Vashtastic-pcb-front.png)
 
 And thats pretty much it. It took alot of time since I used a new software (inkscape). but making art is always fun for me. Now I'll write the Readme I think. That's it for today folks.
+
+[Lapse Recording](https://lapse.hackclub.com/timelapse/FDq0De7senvh)
+
+Note: Multiple Recordings
 
 ***See you Space Cowboy***
